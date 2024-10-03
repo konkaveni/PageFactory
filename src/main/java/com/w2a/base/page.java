@@ -51,7 +51,7 @@ public class page {
 		} else if( Constants.browser.equals("ie")) {
 
 			driver = new InternetExplorerDriver();
-			log.debug("IE Browser Launched Successfully!!!!");
+			log.debug("IE Browser Launched Successfully!!");
 			
 		}
 
