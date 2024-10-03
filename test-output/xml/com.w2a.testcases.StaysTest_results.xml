@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Stays Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="130.453">
+  <properties />
+  
+  
+            <testcase name="staysTest" time="130.453" classname="com.w2a.testcases.StaysTest" />
+      
+</testsuite>

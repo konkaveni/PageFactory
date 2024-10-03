@@ -1,0 +1,12 @@
+04/04/2024 14.14.14 devpinoyLogger Chrome Browser Launched Successfully!!!!
+04/04/2024 14.14.20 devpinoyLogger Navigated to:http://expedia.com
+04/04/2024 14.14.20 devpinoyLogger clicking on an element:[[ChromeDriver: chrome on windows (b9cee74fd6e5d6ddf69c32eb57349025)] -> xpath: //*[@id="multi-product-search-form-1"]/div/div/div[1]/ul/li[2]/a/span]
+04/04/2024 14.14.21 devpinoyLogger Typing in an element: [[ChromeDriver: chrome on windows (b9cee74fd6e5d6ddf69c32eb57349025)] -> xpath: //*[@id="FlightSearchForm_ROUND_TRIP"]/div/div[1]/div/div[1]/div/div/div[2]/div[1]/button]  entered value as:Boston, MA, United States of America (BOS-Logan Intl.)
+04/04/2024 14.14.22 devpinoyLogger Typing in an element: [[ChromeDriver: chrome on windows (b9cee74fd6e5d6ddf69c32eb57349025)] -> xpath: //*[@id="FlightSearchForm_ROUND_TRIP"]/div/div[1]/div/div[2]/div/div/div[2]/div[1]/button]  entered value as:Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.)
+04/04/2024 14.14.22 devpinoyLogger Typing in an element: [[ChromeDriver: chrome on windows (b9cee74fd6e5d6ddf69c32eb57349025)] -> xpath: //*[@id="FlightSearchForm_ROUND_TRIP"]/div/div[2]/div/div/div/div/button]  entered value as:Dec 6 - Dec 21
+04/04/2024 14.14.22 devpinoyLogger Typing in an element: [[ChromeDriver: chrome on windows (b9cee74fd6e5d6ddf69c32eb57349025)] -> css selector: #FlightSearchForm_ROUND_TRIP > div > div:nth-child(3) > div > div.uitk-field.has-floatedLabel-label.has-icon.has-placeholder > button ]  entered value as:1 traveler
+04/04/2024 14.14.38 devpinoyLogger clicking on an element:Proxy element for: AjaxElementLocator 'By.id: search_button'
+04/04/2024 14.14.51 devpinoyLogger Chrome Browser Launched Successfully!!!!
+04/04/2024 14.14.57 devpinoyLogger Navigated to:http://expedia.com
+04/04/2024 14.14.58 devpinoyLogger clicking on an element:[[ChromeDriver: chrome on windows (33d46b76103427dfb2f6c9c5c991dd18)] -> xpath: //*[@id="primary-navigation"]/div/button/div]
+04/04/2024 14.15.01 devpinoyLogger clicking on an element:[[ChromeDriver: chrome on windows (33d46b76103427dfb2f6c9c5c991dd18)] -> xpath: //*[@id="primary-navigation"]/div/div/div/div/div[1]/a/div]

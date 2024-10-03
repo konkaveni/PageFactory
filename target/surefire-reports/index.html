@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Page_Object_Model_With_Factories" class="navigator-link">
+              <span class="suite-name border-failed">Page Object Model With Factories</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>C:\Users\Ravi Konka\Automation\Scripts\PageObjectModelWithFactories\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Page_Object_Model_With_Factories" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Page_Object_Model_With_Factories" class="hide-methods failed suite-Page_Object_Model_With_Factories"> (hide)</a> <!-- hide-methods failed suite-Page_Object_Model_With_Factories -->
+                      <a href="#" panel-name="suite-Page_Object_Model_With_Factories" class="show-methods failed suite-Page_Object_Model_With_Factories"> (show)</a> <!-- show-methods failed suite-Page_Object_Model_With_Factories -->
+                    </span>
+                    <div class="method-list-content failed suite-Page_Object_Model_With_Factories">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_Model_With_Factories" title="com.w2a.testcases.StaysTest" class="method navigator-link" hash-for-method="staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...)">staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Page_Object_Model_With_Factories -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Page_Object_Model_With_Factories" class="hide-methods passed suite-Page_Object_Model_With_Factories"> (hide)</a> <!-- hide-methods passed suite-Page_Object_Model_With_Factories -->
+                      <a href="#" panel-name="suite-Page_Object_Model_With_Factories" class="show-methods passed suite-Page_Object_Model_With_Factories"> (show)</a> <!-- show-methods passed suite-Page_Object_Model_With_Factories -->
+                    </span>
+                    <div class="method-list-content passed suite-Page_Object_Model_With_Factories">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Page_Object_Model_With_Factories" title="com.w2a.testcases.FlightSearchTest" class="method navigator-link" hash-for-method="flightSearchTest({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dalla...)">flightSearchTest({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dalla...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Page_Object_Model_With_Factories -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Page_Object_Model_With_Factories" class="panel Page_Object_Model_With_Factories">
+          <div class="suite-Page_Object_Model_With_Factories-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.w2a.testcases.StaysTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...)">
+                  </a> <!-- staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...) -->
+                  <span class="method-name">staysTest</span>
+                  <span class="parameters">({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, Travelers=2 travelers, 1 room, runmode=y})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 10 seconds. Unable to locate the element
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at com.w2a.base.page.click(page.java:67)
+	at com.w2a.pages.actions.TopNavigation.gotoStays(TopNavigation.java:43)
+	at com.w2a.testcases.StaysTest.staysTest(StaysTest.java:28)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;primary-navigation&quot;]/div/button/div&quot;}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50aaaec11a96c64dc23ad3ce90810b44, findElement {using=xpath, value=//*[@id=&quot;primary-navigation&quot;]/div/button/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\RAVIKO~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50292/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 50aaaec11a96c64dc23ad3ce90810b44
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:38)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
+	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:71)
+	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
+	... 34 more
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model_With_Factories-class-failed -->
+          <div class="suite-Page_Object_Model_With_Factories-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.FlightSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightSearchTest({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dalla...)">
+                  </a> <!-- flightSearchTest({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dalla...) -->
+                  <span class="method-name">flightSearchTest</span>
+                  <span class="parameters">({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), leavingfrom=Boston, MA, United States of America (BOS-Logan Intl.), runmode=y})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Page_Object_Model_With_Factories-class-passed -->
+        </div> <!-- panel Page_Object_Model_With_Factories -->
+        <div panel-name="test-xml-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ravi Konka\Automation\Scripts\PageObjectModelWithFactories\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Page Object Model With Factories&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;errorcollectors.TestListenerAdapter&quot;/&gt;
+    &lt;listener class-name=&quot;com.w2a.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Flight Search Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.testcases.FlightSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Search Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Stays Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.testcases.StaysTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Stays Test --&gt;
+&lt;/suite&gt; &lt;!-- Page Object Model With Factories --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Page Object Model With Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Flight Search Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Stays Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Page Object Model With Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Page Object Model With Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Page_Object_Model_With_Factories');
+function tableData_Page_Object_Model_With_Factories() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'flightSearchTest')
+data.setCell(0, 2, 'com.w2a.testcases.FlightSearchTest')
+data.setCell(0, 3, 33333);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'staysTest')
+data.setCell(1, 2, 'com.w2a.testcases.StaysTest')
+data.setCell(1, 3, 29321);
+window.suiteTableData['Page_Object_Model_With_Factories']= { tableData: data, tableDiv: 'times-div-Page_Object_Model_With_Factories'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Page_Object_Model_With_Factories">
+              </div> <!-- times-div-Page_Object_Model_With_Factories -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Page Object Model With Factories</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="blank" href=null>screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="blank" href=null><img src=nullheight=200 width=200</img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Page_Object_Model_With_Factories" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.FlightSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">flightSearchTest({Dates=Dec 6 - Dec 21, Travelers=1 traveler, goingto=Dallas, TX, United States of America (DFW-Dalla...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33340 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.StaysTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">staysTest({Goingto=Dallas, TX, United States of America (DFW-Dallas-Fort Worth Intl.), Dates=Dec 30 - Jan 4, T...)</span>
+                <span class="method-start">34451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63952 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
